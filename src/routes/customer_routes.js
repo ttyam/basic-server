@@ -1,7 +1,8 @@
 const express = require('express')
 const router = express.Router();
 const root = '/customers'
-router.get(root,
+
+router.get('/',
     (req, res) => {
         // do stuff with the request, req
         console.log(req)
