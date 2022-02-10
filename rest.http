@@ -1,0 +1,12 @@
+### Fetch All / Search customer
+GET http://localhost:3000/api/customers
+
+### Create Customer
+POST http://localhost:3000/api/customers
+content-type: application/json
+
+### Get Customer By ID
+GET http://localhost:3000/api/customers/64
+
+### Test
+GET http://localhost:3000/test
